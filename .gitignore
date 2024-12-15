@@ -172,3 +172,4 @@ src/ragas/_version.py
 .envrc
 uv.lock
 .cache/
+mycode/02_ragas_evaluation_v0.2.py
