@@ -171,5 +171,8 @@ src/ragas/_version.py
 .vscode
 .envrc
 uv.lock
+<<<<<<< Updated upstream
 .cache/
+=======
+>>>>>>> Stashed changes
 mycode/02_ragas_evaluation_v0.2.py

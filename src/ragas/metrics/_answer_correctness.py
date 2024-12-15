@@ -161,7 +161,7 @@ class AnswerCorrectness(MetricWithLLM, MetricWithEmbeddings, SingleTurnMetric):
     name: str = "answer_correctness"
     _required_columns: t.Dict[MetricType, t.Set[str]] = field(
         default_factory=lambda: {
-            MetricType.SINGLE_TURN: {"user_input", "response", "reference"}
+            MetricType.SINGLE_TURN: {"question", "answer", "ground_truth"}
         }
     )
     output_type = MetricOutputType.CONTINUOUS
